@@ -1,58 +1,9 @@
-#RxDebounceClick
-[![](https://jitpack.io/v/SmartDengg/RxDebounceClick.svg)](https://jitpack.io/#SmartDengg/RxDebounceClick)
+#Android code style
 
-![](./images/launcher.png)
-
-Sketch
---------
-It's similar to the Butterknife's [DebouncingOnClickListener](https://github.com/JakeWharton/butterknife/blob/master/butterknife/src/main/java/butterknife/internal/DebouncingOnClickListener.java). That also means "A click listener that debounces multiple clicks posted in the same frame. A click on one button disables all buttons for that frame."  
-
-This library use [RxJava](https://github.com/ReactiveX/RxJava) but not support [Backpressure](https://github.com/ReactiveX/RxJava/wiki/Backpressure).
+IntelliJ IDEA code style settings for Square's Java and Android projects.
 
 
-Usage
---------
-
-- Gradle:
-
-**Step 1.** Add the JitPack repository to your build file. Add it in your root build.gradle at the end of repositories:
-
-```java
-allprojects {
-		repositories {
-			...
-			maven { url "https://jitpack.io" }
-		}
-	}
-```
-
-**Step 2.** Add the dependency
-
-```java
-dependencies {
-    compile 'com.github.SmartDengg:RxDebounceClick:0.0.1' 
-}
-```
-
-- Java
-
-```java
-RxDebounceClick.onClick(button)
-               .subscribe(new Action1<Void>() {
-                   @Override
-                   public void call(Void aVoid) {
-                       // Do stuff
-                   }
-               });
-```
-
-Preview
---------
-
-![](./images/rxdebounceclick.gif)
-
-
-Developed By
+About me
 --------
 - SmartDengg - Hi4Joker@gmail.com
 
